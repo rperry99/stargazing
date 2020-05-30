@@ -3,3 +3,21 @@
   background-size: cover;
   background-position: center;
 }
+
+#amenities h1 {
+  position: relative;
+}
+#amenities h1:after {
+  height: 15px;
+  width: 100px;
+  background: #ecc94b;
+  content: "";
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  z-index: -1;
+  border-radius: 5px;
+}
+.amenity i {
+  font-size: 5rem;
+}
