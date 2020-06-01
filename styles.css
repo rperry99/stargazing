@@ -8,10 +8,13 @@
   margin: 4rem auto;
   width: 100%;
 }
-#amenities h1 {
+#amenities h2,
+#photos h2 {
   position: relative;
+  z-index: 10;
 }
-#amenities h1:after {
+#amenities h2:after,
+#photos h2:after {
   height: 15px;
   width: 100px;
   background: #ecc94b;
@@ -33,6 +36,26 @@
 }
 .navClosed {
   right: -500px;
+}
+#gallery {
+  margin-top: 2rem;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 100%;
+  max-width: 100%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -80,5 +103,20 @@
   }
   #amenities .container div {
     width: 25%;
+  }
+  #gallery {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 1020px) {
+  .column {
+    flex: 45%;
+    max-width: 45%;
   }
 }
