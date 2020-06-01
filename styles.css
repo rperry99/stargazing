@@ -4,6 +4,10 @@
   background-position: center;
 }
 
+#amenities .container {
+  margin: 4rem auto;
+  width: 100%;
+}
 #amenities h1 {
   position: relative;
 }
@@ -65,5 +69,16 @@
   }
   #close {
     display: none;
+  }
+  #amenities {
+    height: 50vh;
+  }
+  #amenities .container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  #amenities .container div {
+    width: 25%;
   }
 }
