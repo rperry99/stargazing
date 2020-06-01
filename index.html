@@ -14,7 +14,7 @@
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body class="relative">
+  <body class="relative overflow-x-hidden">
     <div id="header" class="p-4 absolute w-full">
       <nav class="flex justify-between items-center bg-transparent">
         <div class="flex items-center text-2xl text-white">Midna</div>
@@ -26,13 +26,17 @@
         </div>
         <div
           id="navigation"
-          class="text-white hidden flex-col bg-indigo-900 absolute h-screen top-0 right-0 text-right w-1/2"
+          class="text-white flex flex-col bg-indigo-900 absolute h-screen top-0 text-right w-1/2 navClosed"
         >
-          <a id="close" class="m-6 text-4xl text-yellow-600">X</a>
-          <a href="#" class="m-6 text-xl">Home</a>
-          <a href="#" class="m-6 text-xl">Amenities</a>
-          <a href="#" class="m-6 text-xl">Photos</a>
-          <a href="#" class="m-6 text-xl">Contact</a>
+          <a
+            id="close"
+            class="m-6 text-4xl text-yellow-600 cursor-pointer hover:text-yellow-500 font-bold"
+            >X</a
+          >
+          <a href="#" class="my-6 mx-10 text-xl">Home</a>
+          <a href="#" class="my-6 mx-10 text-xl">Amenities</a>
+          <a href="#" class="my-6 mx-10 text-xl">Photos</a>
+          <a href="#" class="my-6 mx-10 text-xl">Contact</a>
         </div>
       </nav>
     </div>
