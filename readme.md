@@ -1,4 +1,4 @@
-# Stargazing website
+# Stargazing website [Link to Live Website](https://rperry99.github.io/stargazing/index.html)
 
 Hero background: [Greg Rakozy](https://unsplash.com/@grakozy) on Unsplash
 
