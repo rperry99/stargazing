@@ -80,6 +80,16 @@
   color: #ecc94b;
 }
 
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4rem;
+  background: #ecc94b;
+}
+footer a:hover {
+  color: #3c366b;
+}
 @media (min-width: 768px) {
   #navButton {
     display: none;
