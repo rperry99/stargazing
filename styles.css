@@ -43,9 +43,11 @@ body {
 }
 .navOpen {
   right: 0;
+  display: flex;
 }
 .navClosed {
   right: -500px;
+  display: none;
 }
 #gallery {
   margin-top: 2rem;
